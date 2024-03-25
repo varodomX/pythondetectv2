@@ -136,7 +136,7 @@ def download_and_detect():
         while True:
             now = datetime.now()
             current_time = now.strftime("%H:%M")
-            if current_time.endswith("11") or current_time.endswith("20") or current_time.endswith("35") or current_time.endswith("50"):
+            if current_time.endswith("05") or current_time.endswith("20") or current_time.endswith("35") or current_time.endswith("50"):
                 # อัปเดต URL ตามที่จำเป็น
                 url = 'https://weather.tmd.go.th/kkn.php'
                 response = requests.get(url)
